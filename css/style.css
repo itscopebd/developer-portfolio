@@ -26,21 +26,23 @@ li {
     border-radius: 5px;
 
 }
-.section_title{
+
+.section_title {
     font-weight: 700;
-font-size: 35px;
-line-height: 48px;
-text-align: center;
-color: #181818;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
 }
 
 
 /* header  */
-.header{
- background-image: url(../images/developer.png);
-background-repeat: no-repeat;
-background-position: left;
-background-size: 90% contain;
+.header {
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 90% contain;
     background-color: #FFF8F3;
 }
 
@@ -51,7 +53,7 @@ nav {
     justify-content: space-between;
     width: 70%;
     margin: 0 auto;
-    padding:50px 0;
+    padding: 50px 0;
 }
 
 .nav-title {
@@ -128,8 +130,89 @@ nav ul li {
 
 /* main css start here  */
 
-main{
-    width: 80%;
-    margin: 0 auto;
+main {
+    width: 70%;
+    margin: 0px auto;
 }
+
+/* about section css start here  */
+section.about {
+    margin: 100px 0;
+    padding: 100px 150px;
+    background: #FFF8F3;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 25px;
+
+}
+
+.information {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.info_title p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
+
+.info_title h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
+}
+
+/* about section css end here  */
+
+
+/* I working section css start here  */
+.i_working .description {
+    padding: 0px 214px;
+}
+
+.my_use_technology {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 100px;
+    
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 40px 30px;
+    margin-top: 20px;
+}
+
+.card h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    margin: 40px 0 30px 0;
+}
+.card p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #757575;
+}
+
+/* I working section css end here  */
+
 /* main css end here  */
